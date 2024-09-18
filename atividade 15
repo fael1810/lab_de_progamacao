@@ -1,0 +1,72 @@
+ATIVIDADE 15
+a) nota1 = int(input('qual sua nota: '))
+nota2 = int(input('qual sua nota: '))
+nota3 = int(input('qual sua nota: '))
+nota4 = int(input('qual sua nota: '))
+nota5 = int(input('qual sua nota: '))
+
+media=(nota1+nota2+nota3+nota4+nota5)/5
+
+print('sua media foi: ', media)
+ 
+b) hora = int(input('quanto voce recebe por hora? '))
+mes = int(input('quantas horas voce trabalha por mes? '))
+
+salario=hora*mes
+print('seu salario é de: ', salario)
+
+c) numero1 = int(input('qual seu primeiro numero? '))
+numero2 = int(input('qual seu segundo numero? '))
+
+operaçao = int(input('qual operação voce deseja?\n1-adiçao\n2-subtraçao\n3-divisao\n4-multiplicaçao\n'))
+
+if operaçao == 1 :
+    resultado=numero1+numero2
+    print(resultado)
+
+elif operaçao == 2 :
+    resultado=numero1-numero2
+    print(resultado)
+
+elif operaçao == 3 :
+    resultado=numero1/numero2
+    print(resultado)
+
+elif operaçao == 4 :
+    resultado=(numero1*numero2)
+    print(resultado)
+
+d)f = int(input('qual sua temperatura em Fahrenheit? '))
+
+C = 5 * ((f-32) / 9)
+
+print('essa temperatura em Celsius é: ',C)
+
+e) numero1 = int(input('qual seu primeiro numero inteiro? '))
+numero2 = int(input('qual seu segundo numero inteiro? '))
+real = float(input('qual seu numero real? '))
+
+dobro=(numero1*2)+(numero2/2)
+print(dobro)
+
+triplo=(numero1*3)+real
+print(triplo)
+
+elevado=real**2
+print(elevado)
+
+f) altura = float(input('qual sua altura? '))
+
+ideal=(72.7*altura) - 58
+print('seu peso ideal é: ', ideal)
+
+g) h = float(input('qual sua altura? '))
+
+genero = (input('qual seu genero?\n H-homem\nM-mulher\n'))
+
+if genero == 'H':
+   resultado=(72.7*h) - 58
+   print(resultado)
+elif genero == 'M':
+     resultado=((62.1*h) - 44.7)
+     print(resultado)
