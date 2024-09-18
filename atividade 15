@@ -70,3 +70,44 @@ if genero == 'H':
 elif genero == 'M':
      resultado=((62.1*h) - 44.7)
      print(resultado)
+
+h) peso =float(input('Digite o peso de peixes (em kg)'))
+excesso = peso-50
+multa =excesso *4
+print(f"Peso total: {peso} kg")print(f"Excesso: {excesso} kg")print(f"Multa: R$ {multa:.2f}")
+
+i)salario_hora = float(input('Digite o salário por hora: '))
+Il salario_bruto = salario_hora-" horas_trabalhadas ir =0.11 * salario_bruto
+horas_trabalhadas = float(input(“"Digite o número de horas trabalhadas: "1I
+inss= 0.08*salario_bruto
+sindicato = 0.05 * salario_bruto
+salario_liquido = salario_bruto- (ir + inss + sindicato)
+print(f"Salário Bruto: R$ {salario_bruto:.2f")
+print(f"Desconto IR (11%): RS fir:.-2f]")
+print(f"Desconto INSS (8%): RS finss:.2f]")
+print(f"Desconto Sindicato (5%): RS {sindicato:.2f]")
+print(f"Salário Líquido: R$ {salario_liquido:.2f)")
+
+j)area = float(input("Digite o tamanho da área em metros quadrados:"1
+litros = area/3
+latas =-(-litros // 18) # Arredondar para cima
+preco_total = latas *80
+print(f"Quantidade de latas: {latas:.0f)")
+print(f"Preço total: R$ {preco_total:.2f)"
+
+k)area = float(input("Digite o tamanho da área em metros quadrados. "I)
+litros = area / 6
+latas = math.ceil(litros / 18)galoes = math.ceil(litros / 3.6)# a) Somente latas de 18 litros preco_latas = latas * 80
+# b) Somente galões de 3.6 litros
+preco_galoes = galoes* 25
+# c) Misturar latas e galões latas_mistas = litros // 18 resto_litros = litros%18
+galoes_mistos = math.ceil(resto_litros /3.6)
+preco_misto = (latas_mistas *80) + (galoes_mistos*25)
+print(f"a) Quantidade de latas: {latas), Preço: RS (preco_latas: 2fy")
+print(f"b) Quantidade de galões: (galoes}, Preço: RS {preco_galoes:2f")
+print(f"c) Latas: {latas_mistas}, Galões: {galoes_mistos), Preço Misto: RS fpreco_misto: 2f")
+
+l)tamanho_arquivo = float(input(“Digite o tamanho do arquivo em MB: "1)
+velocidade_internet = float(input("Digite a velocidade da internet em Mops."1
+tempo_download = (tamanho_arquivo !'velocidade _internet / 811/ 60 # Convertendo para minutos
+print(f"O tempo aproximado de download é: {tempo_download: 21) minutos")
